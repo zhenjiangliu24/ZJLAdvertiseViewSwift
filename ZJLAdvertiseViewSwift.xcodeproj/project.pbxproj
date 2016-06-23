@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6314227A3096399DDB28CCFA /* Pods_ZJLAdvertiseViewSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E6852A2EEB10AB667C0A1 /* Pods_ZJLAdvertiseViewSwiftTests.framework */; };
+		C903B632EF8584EE698F2B62 /* Pods_ZJLAdvertiseViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42792BD93A42E68E9DB8A94B /* Pods_ZJLAdvertiseViewSwift.framework */; };
+		CAFFB1761D1B30E200E1C639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB1751D1B30E200E1C639 /* AppDelegate.swift */; };
+		CAFFB1781D1B30E200E1C639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB1771D1B30E200E1C639 /* ViewController.swift */; };
+		CAFFB17B1D1B30E200E1C639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFFB1791D1B30E200E1C639 /* Main.storyboard */; };
+		CAFFB17D1D1B30E200E1C639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFFB17C1D1B30E200E1C639 /* Assets.xcassets */; };
+		CAFFB1801D1B30E200E1C639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFFB17E1D1B30E200E1C639 /* LaunchScreen.storyboard */; };
+		CAFFB18B1D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB18A1D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.swift */; };
+		CAFFB1961D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB1951D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.swift */; };
+		CAFFB1A51D1B378B00E1C639 /* ZJLAdvertiseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB1A41D1B378B00E1C639 /* ZJLAdvertiseCollectionViewCell.swift */; };
+		CAFFB1A71D1B3ADF00E1C639 /* ZJLAdvertiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFFB1A61D1B3ADF00E1C639 /* ZJLAdvertiseView.swift */; };
+		F6F292CB6F5D0333D4DCDEDE /* Pods_ZJLAdvertiseViewSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375631AB2DC6C6C925E90E5 /* Pods_ZJLAdvertiseViewSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFFB1871D1B30E200E1C639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFFB16A1D1B30E200E1C639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFFB1711D1B30E200E1C639;
+			remoteInfo = ZJLAdvertiseViewSwift;
+		};
+		CAFFB1921D1B30E200E1C639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFFB16A1D1B30E200E1C639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFFB1711D1B30E200E1C639;
+			remoteInfo = ZJLAdvertiseViewSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42792BD93A42E68E9DB8A94B /* Pods_ZJLAdvertiseViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJLAdvertiseViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF080CD63D752102A389B1D /* Pods-ZJLAdvertiseViewSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftTests/Pods-ZJLAdvertiseViewSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		560A5EF44C0897E32CE3CC72 /* Pods-ZJLAdvertiseViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwift/Pods-ZJLAdvertiseViewSwift.release.xcconfig"; sourceTree = "<group>"; };
+		6BFE73DFD972041253AA103F /* Pods-ZJLAdvertiseViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwift/Pods-ZJLAdvertiseViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		860E6852A2EEB10AB667C0A1 /* Pods_ZJLAdvertiseViewSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJLAdvertiseViewSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6C4676E12744B3A27809C4 /* Pods-ZJLAdvertiseViewSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftUITests/Pods-ZJLAdvertiseViewSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C24B02AAA46B5FCADBB884E5 /* Pods-ZJLAdvertiseViewSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftTests/Pods-ZJLAdvertiseViewSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFFB1721D1B30E200E1C639 /* ZJLAdvertiseViewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLAdvertiseViewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFFB1751D1B30E200E1C639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFFB1771D1B30E200E1C639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFFB17A1D1B30E200E1C639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFFB17C1D1B30E200E1C639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFFB17F1D1B30E200E1C639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFFB1811D1B30E200E1C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFFB1861D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAdvertiseViewSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFFB18A1D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLAdvertiseViewSwiftTests.swift; sourceTree = "<group>"; };
+		CAFFB18C1D1B30E200E1C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFFB1911D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAdvertiseViewSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFFB1951D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLAdvertiseViewSwiftUITests.swift; sourceTree = "<group>"; };
+		CAFFB1971D1B30E200E1C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFFB1A41D1B378B00E1C639 /* ZJLAdvertiseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJLAdvertiseCollectionViewCell.swift; path = "ZJLAdvertiseView-Swift/ZJLAdvertiseCollectionViewCell.swift"; sourceTree = "<group>"; };
+		CAFFB1A61D1B3ADF00E1C639 /* ZJLAdvertiseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJLAdvertiseView.swift; path = "ZJLAdvertiseView-Swift/ZJLAdvertiseView.swift"; sourceTree = "<group>"; };
+		F375631AB2DC6C6C925E90E5 /* Pods_ZJLAdvertiseViewSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJLAdvertiseViewSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB798DDB2ACD35E64CC35539 /* Pods-ZJLAdvertiseViewSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLAdvertiseViewSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftUITests/Pods-ZJLAdvertiseViewSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFFB16F1D1B30E200E1C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C903B632EF8584EE698F2B62 /* Pods_ZJLAdvertiseViewSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB1831D1B30E200E1C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6314227A3096399DDB28CCFA /* Pods_ZJLAdvertiseViewSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB18E1D1B30E200E1C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F292CB6F5D0333D4DCDEDE /* Pods_ZJLAdvertiseViewSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A884E7E388DFF2B96E60F3AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42792BD93A42E68E9DB8A94B /* Pods_ZJLAdvertiseViewSwift.framework */,
+				860E6852A2EEB10AB667C0A1 /* Pods_ZJLAdvertiseViewSwiftTests.framework */,
+				F375631AB2DC6C6C925E90E5 /* Pods_ZJLAdvertiseViewSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFFB1691D1B30E200E1C639 = {
+			isa = PBXGroup;
+			children = (
+				CAFFB1741D1B30E200E1C639 /* ZJLAdvertiseViewSwift */,
+				CAFFB1891D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests */,
+				CAFFB1941D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests */,
+				CAFFB1731D1B30E200E1C639 /* Products */,
+				F8CF476BF0995175E72F09B1 /* Pods */,
+				A884E7E388DFF2B96E60F3AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFFB1731D1B30E200E1C639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFB1721D1B30E200E1C639 /* ZJLAdvertiseViewSwift.app */,
+				CAFFB1861D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.xctest */,
+				CAFFB1911D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFFB1741D1B30E200E1C639 /* ZJLAdvertiseViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFB1A31D1B36FD00E1C639 /* ZJLAdvertiseView-Swift */,
+				CAFFB1751D1B30E200E1C639 /* AppDelegate.swift */,
+				CAFFB1771D1B30E200E1C639 /* ViewController.swift */,
+				CAFFB1791D1B30E200E1C639 /* Main.storyboard */,
+				CAFFB17C1D1B30E200E1C639 /* Assets.xcassets */,
+				CAFFB17E1D1B30E200E1C639 /* LaunchScreen.storyboard */,
+				CAFFB1811D1B30E200E1C639 /* Info.plist */,
+			);
+			path = ZJLAdvertiseViewSwift;
+			sourceTree = "<group>";
+		};
+		CAFFB1891D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFB18A1D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.swift */,
+				CAFFB18C1D1B30E200E1C639 /* Info.plist */,
+			);
+			path = ZJLAdvertiseViewSwiftTests;
+			sourceTree = "<group>";
+		};
+		CAFFB1941D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFB1951D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.swift */,
+				CAFFB1971D1B30E200E1C639 /* Info.plist */,
+			);
+			path = ZJLAdvertiseViewSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CAFFB1A31D1B36FD00E1C639 /* ZJLAdvertiseView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFB1A41D1B378B00E1C639 /* ZJLAdvertiseCollectionViewCell.swift */,
+				CAFFB1A61D1B3ADF00E1C639 /* ZJLAdvertiseView.swift */,
+			);
+			name = "ZJLAdvertiseView-Swift";
+			sourceTree = "<group>";
+		};
+		F8CF476BF0995175E72F09B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE73DFD972041253AA103F /* Pods-ZJLAdvertiseViewSwift.debug.xcconfig */,
+				560A5EF44C0897E32CE3CC72 /* Pods-ZJLAdvertiseViewSwift.release.xcconfig */,
+				C24B02AAA46B5FCADBB884E5 /* Pods-ZJLAdvertiseViewSwiftTests.debug.xcconfig */,
+				4DF080CD63D752102A389B1D /* Pods-ZJLAdvertiseViewSwiftTests.release.xcconfig */,
+				AE6C4676E12744B3A27809C4 /* Pods-ZJLAdvertiseViewSwiftUITests.debug.xcconfig */,
+				FB798DDB2ACD35E64CC35539 /* Pods-ZJLAdvertiseViewSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFFB1711D1B30E200E1C639 /* ZJLAdvertiseViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFFB19A1D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwift" */;
+			buildPhases = (
+				DC71BBFD8AA22012676BE41F /* 📦 Check Pods Manifest.lock */,
+				CAFFB16E1D1B30E200E1C639 /* Sources */,
+				CAFFB16F1D1B30E200E1C639 /* Frameworks */,
+				CAFFB1701D1B30E200E1C639 /* Resources */,
+				19EE8F91F73782E67EF7C37B /* 📦 Embed Pods Frameworks */,
+				E48D920479B1CAC003220DE1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLAdvertiseViewSwift;
+			productName = ZJLAdvertiseViewSwift;
+			productReference = CAFFB1721D1B30E200E1C639 /* ZJLAdvertiseViewSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFFB1851D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFFB19D1D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwiftTests" */;
+			buildPhases = (
+				BBEBB2D06858DBFB016E8A75 /* 📦 Check Pods Manifest.lock */,
+				CAFFB1821D1B30E200E1C639 /* Sources */,
+				CAFFB1831D1B30E200E1C639 /* Frameworks */,
+				CAFFB1841D1B30E200E1C639 /* Resources */,
+				A8935E017B08982B406C3266 /* 📦 Embed Pods Frameworks */,
+				C3AF86B7E9507E486C2B24A7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFFB1881D1B30E200E1C639 /* PBXTargetDependency */,
+			);
+			name = ZJLAdvertiseViewSwiftTests;
+			productName = ZJLAdvertiseViewSwiftTests;
+			productReference = CAFFB1861D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFFB1901D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFFB1A01D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwiftUITests" */;
+			buildPhases = (
+				23FAE4524CBCC41D9C53AFE6 /* 📦 Check Pods Manifest.lock */,
+				CAFFB18D1D1B30E200E1C639 /* Sources */,
+				CAFFB18E1D1B30E200E1C639 /* Frameworks */,
+				CAFFB18F1D1B30E200E1C639 /* Resources */,
+				98CFCD548ECA04607EE762A1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFFB1931D1B30E200E1C639 /* PBXTargetDependency */,
+			);
+			name = ZJLAdvertiseViewSwiftUITests;
+			productName = ZJLAdvertiseViewSwiftUITests;
+			productReference = CAFFB1911D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFFB16A1D1B30E200E1C639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CAFFB1711D1B30E200E1C639 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CAFFB1851D1B30E200E1C639 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFFB1711D1B30E200E1C639;
+					};
+					CAFFB1901D1B30E200E1C639 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFFB1711D1B30E200E1C639;
+					};
+				};
+			};
+			buildConfigurationList = CAFFB16D1D1B30E200E1C639 /* Build configuration list for PBXProject "ZJLAdvertiseViewSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFFB1691D1B30E200E1C639;
+			productRefGroup = CAFFB1731D1B30E200E1C639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFFB1711D1B30E200E1C639 /* ZJLAdvertiseViewSwift */,
+				CAFFB1851D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests */,
+				CAFFB1901D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFFB1701D1B30E200E1C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFFB1801D1B30E200E1C639 /* LaunchScreen.storyboard in Resources */,
+				CAFFB17D1D1B30E200E1C639 /* Assets.xcassets in Resources */,
+				CAFFB17B1D1B30E200E1C639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB1841D1B30E200E1C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB18F1D1B30E200E1C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EE8F91F73782E67EF7C37B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLAdvertiseViewSwift/Pods-ZJLAdvertiseViewSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23FAE4524CBCC41D9C53AFE6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98CFCD548ECA04607EE762A1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftUITests/Pods-ZJLAdvertiseViewSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8935E017B08982B406C3266 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftTests/Pods-ZJLAdvertiseViewSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEBB2D06858DBFB016E8A75 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AF86B7E9507E486C2B24A7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLAdvertiseViewSwiftTests/Pods-ZJLAdvertiseViewSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC71BBFD8AA22012676BE41F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E48D920479B1CAC003220DE1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLAdvertiseViewSwift/Pods-ZJLAdvertiseViewSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFFB16E1D1B30E200E1C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFFB1781D1B30E200E1C639 /* ViewController.swift in Sources */,
+				CAFFB1A51D1B378B00E1C639 /* ZJLAdvertiseCollectionViewCell.swift in Sources */,
+				CAFFB1761D1B30E200E1C639 /* AppDelegate.swift in Sources */,
+				CAFFB1A71D1B3ADF00E1C639 /* ZJLAdvertiseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB1821D1B30E200E1C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFFB18B1D1B30E200E1C639 /* ZJLAdvertiseViewSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFFB18D1D1B30E200E1C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFFB1961D1B30E200E1C639 /* ZJLAdvertiseViewSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFFB1881D1B30E200E1C639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFFB1711D1B30E200E1C639 /* ZJLAdvertiseViewSwift */;
+			targetProxy = CAFFB1871D1B30E200E1C639 /* PBXContainerItemProxy */;
+		};
+		CAFFB1931D1B30E200E1C639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFFB1711D1B30E200E1C639 /* ZJLAdvertiseViewSwift */;
+			targetProxy = CAFFB1921D1B30E200E1C639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFFB1791D1B30E200E1C639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFFB17A1D1B30E200E1C639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFFB17E1D1B30E200E1C639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFFB17F1D1B30E200E1C639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFFB1981D1B30E200E1C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFFB1991D1B30E200E1C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFFB19B1D1B30E200E1C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFE73DFD972041253AA103F /* Pods-ZJLAdvertiseViewSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAdvertiseViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFFB19C1D1B30E200E1C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560A5EF44C0897E32CE3CC72 /* Pods-ZJLAdvertiseViewSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAdvertiseViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFFB19E1D1B30E200E1C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24B02AAA46B5FCADBB884E5 /* Pods-ZJLAdvertiseViewSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAdvertiseViewSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAdvertiseViewSwift.app/ZJLAdvertiseViewSwift";
+			};
+			name = Debug;
+		};
+		CAFFB19F1D1B30E200E1C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF080CD63D752102A389B1D /* Pods-ZJLAdvertiseViewSwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAdvertiseViewSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAdvertiseViewSwift.app/ZJLAdvertiseViewSwift";
+			};
+			name = Release;
+		};
+		CAFFB1A11D1B30E200E1C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6C4676E12744B3A27809C4 /* Pods-ZJLAdvertiseViewSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAdvertiseViewSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAdvertiseViewSwift;
+			};
+			name = Debug;
+		};
+		CAFFB1A21D1B30E200E1C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB798DDB2ACD35E64CC35539 /* Pods-ZJLAdvertiseViewSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAdvertiseViewSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAdvertiseViewSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAdvertiseViewSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFFB16D1D1B30E200E1C639 /* Build configuration list for PBXProject "ZJLAdvertiseViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFFB1981D1B30E200E1C639 /* Debug */,
+				CAFFB1991D1B30E200E1C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFFB19A1D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFFB19B1D1B30E200E1C639 /* Debug */,
+				CAFFB19C1D1B30E200E1C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFFB19D1D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFFB19E1D1B30E200E1C639 /* Debug */,
+				CAFFB19F1D1B30E200E1C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFFB1A01D1B30E200E1C639 /* Build configuration list for PBXNativeTarget "ZJLAdvertiseViewSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFFB1A11D1B30E200E1C639 /* Debug */,
+				CAFFB1A21D1B30E200E1C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFFB16A1D1B30E200E1C639 /* Project object */;
+}

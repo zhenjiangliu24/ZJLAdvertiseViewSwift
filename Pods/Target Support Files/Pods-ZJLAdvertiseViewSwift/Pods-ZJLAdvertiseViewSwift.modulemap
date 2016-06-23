@@ -1,0 +1,6 @@
+framework module Pods_ZJLAdvertiseViewSwift {
+  umbrella header "Pods-ZJLAdvertiseViewSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
