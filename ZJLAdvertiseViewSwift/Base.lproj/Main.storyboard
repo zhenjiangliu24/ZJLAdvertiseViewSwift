@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,36 +16,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBI-9j-Fpy" customClass="ZJLAdvertiseView" customModule="ZJLAdvertiseViewSwift" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="600" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cBI-9j-Fpy" secondAttribute="bottom" constant="336" id="8JC-sd-Isp"/>
-                            <constraint firstItem="cBI-9j-Fpy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="8ok-ui-Hp3"/>
-                            <constraint firstItem="cBI-9j-Fpy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ALO-NB-dVS"/>
-                            <constraint firstItem="cBI-9j-Fpy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LjV-JV-kJD"/>
-                            <constraint firstItem="cBI-9j-Fpy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="X7r-ZX-llP"/>
-                            <constraint firstItem="cBI-9j-Fpy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wY1-ja-e7z"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="LjV-JV-kJD"/>
-                                <exclude reference="X7r-ZX-llP"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Nzl-at-GA5"/>
-                    <connections>
-                        <outlet property="advertiseView" destination="cBI-9j-Fpy" id="MX9-vH-q3S"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="149"/>
+            <point key="canvasLocation" x="1106" y="79"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nNo-lc-YCl">
@@ -64,7 +40,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3in-51-8QR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="890" y="-44"/>
+            <point key="canvasLocation" x="482" y="149"/>
         </scene>
     </scenes>
 </document>

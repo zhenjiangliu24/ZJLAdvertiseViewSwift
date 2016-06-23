@@ -11,15 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
    
-    @IBOutlet weak var advertiseView: ZJLAdvertiseView!{
-        didSet{
-            advertiseView.backgroundColor = UIColor.whiteColor()
-        }
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let advertiseView : ZJLAdvertiseView = ZJLAdvertiseView.init(frame: CGRectMake(0, 0, self.view!.frame.size.width, 200))
         advertiseView.changeInterval = 2
         advertiseView.imageURLs = ["http://img.article.pchome.net/00/43/41/54/pic_lib/wm/3.jpg",
                                     "http://f.hiphotos.baidu.com/image/h%3D200/sign=658bab6a553d269731d30f5d65fab24f/0dd7912397dda1446853fa12b6b7d0a20cf4863c.jpg",
@@ -32,6 +29,7 @@ class ViewController: UIViewController {
         advertiseView.endDownloadImageClosure = { [unowned self] in
             self.title = "finished"
         }
+        self.view!.addSubview(advertiseView)
     }
     
     override func didReceiveMemoryWarning() {

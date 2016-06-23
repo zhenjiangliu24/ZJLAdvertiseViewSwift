@@ -40,7 +40,11 @@ public class ZJLAdvertiseView: UIView {
     public var endDownloadImageClosure : NormalClosure?
     
     public var changeInterval : NSTimeInterval = 0
-    
+    public var pageScale: CGFloat! {
+        didSet {
+            pageControl.transform = CGAffineTransformMakeScale(pageScale, pageScale)
+        }
+    }
     
     public var images : [UIImage] = [UIImage](){
         didSet{
@@ -76,6 +80,7 @@ public class ZJLAdvertiseView: UIView {
         layout.scrollDirection = .Horizontal
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
+        layout.sectionInset = UIEdgeInsetsZero
         return layout
     }()
     private lazy var collectionView : UICollectionView = {
@@ -85,7 +90,9 @@ public class ZJLAdvertiseView: UIView {
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.pagingEnabled = true
         collectionView.registerClass(ZJLAdvertiseCollectionViewCell.self, forCellWithReuseIdentifier: Constants.reuseCollectionViewCellIdentifier)
+        collectionView.contentInset = UIEdgeInsetsZero
         collectionView.backgroundColor = UIColor.whiteColor()
+        
         return collectionView
     }()
 }
@@ -98,9 +105,10 @@ extension ZJLAdvertiseView{
     
     public override func layoutSubviews() {
         super.layoutSubviews()
-        layout.itemSize = self.bounds.size
-        layout.estimatedItemSize = self.bounds.size
         collectionView.frame = self.bounds
+        layout.itemSize = collectionView.frame.size
+        layout.estimatedItemSize = collectionView.frame.size
+        
         pageControl.center = CGPoint(x: bounds.size.width/2, y:bounds.size.height-20)
         if images.count>1 {
             collectionView.contentOffset = CGPoint(x: collectionView.frame.size.width, y: 0)

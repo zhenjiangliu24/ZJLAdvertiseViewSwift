@@ -11,6 +11,7 @@ import UIKit
 class ZJLAdvertiseCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
+        sepUpViews()
     }
     
     required init?(coder aDecoder: NSCoder) {
