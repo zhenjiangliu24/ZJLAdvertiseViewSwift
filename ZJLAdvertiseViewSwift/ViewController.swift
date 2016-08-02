@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let advertiseView : ZJLAdvertiseView = ZJLAdvertiseView.init(frame: CGRectMake(0, 0, self.view!.frame.size.width, 200))
+        ////////////can not miss this line
+        self.automaticallyAdjustsScrollViewInsets = false
         advertiseView.changeInterval = 2
         advertiseView.imageURLs = ["http://img.article.pchome.net/00/43/41/54/pic_lib/wm/3.jpg",
                                     "http://f.hiphotos.baidu.com/image/h%3D200/sign=658bab6a553d269731d30f5d65fab24f/0dd7912397dda1446853fa12b6b7d0a20cf4863c.jpg",
